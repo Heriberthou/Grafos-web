@@ -1,0 +1,425 @@
+{
+  "source": "https://s3-us-west-2.amazonaws.com/config.maptiles.arcgis.com/waybackconfig.json",
+  "versions": [
+    {
+      "date": "2025-12-18",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/13192/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r12/MapServer"
+    },
+    {
+      "date": "2025-11-20",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/51127/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r11/MapServer"
+    },
+    {
+      "date": "2025-10-23",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20512/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r10/MapServer"
+    },
+    {
+      "date": "2025-09-25",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/58924/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r09/MapServer"
+    },
+    {
+      "date": "2025-09-04",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/52304/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r08/MapServer"
+    },
+    {
+      "date": "2025-07-31",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/49999/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r07/MapServer"
+    },
+    {
+      "date": "2025-06-26",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/48925/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r06/MapServer"
+    },
+    {
+      "date": "2025-05-29",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/25285/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r05/MapServer"
+    },
+    {
+      "date": "2025-04-24",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27982/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r04/MapServer"
+    },
+    {
+      "date": "2025-03-27",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6543/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r03/MapServer"
+    },
+    {
+      "date": "2025-02-27",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/34007/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r02/MapServer"
+    },
+    {
+      "date": "2025-01-30",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/36557/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2025_r01/MapServer"
+    },
+    {
+      "date": "2024-12-12",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16453/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r13/MapServer"
+    },
+    {
+      "date": "2024-11-18",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/49849/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r12/MapServer"
+    },
+    {
+      "date": "2024-10-10",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/56450/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r11/MapServer"
+    },
+    {
+      "date": "2024-09-19",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20337/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r10/MapServer"
+    },
+    {
+      "date": "2024-08-15",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/32553/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r08/MapServer"
+    },
+    {
+      "date": "2024-06-27",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/39767/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r07/MapServer"
+    },
+    {
+      "date": "2024-06-06",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/12428/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r06/MapServer"
+    },
+    {
+      "date": "2024-05-09",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/52930/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r05/MapServer"
+    },
+    {
+      "date": "2024-03-28",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/13968/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r03/MapServer"
+    },
+    {
+      "date": "2024-03-07",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/60013/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r02/MapServer"
+    },
+    {
+      "date": "2024-02-08",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/37965/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r01/MapServer"
+    },
+    {
+      "date": "2024-01-18",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/41468/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2024_r00/MapServer"
+    },
+    {
+      "date": "2023-12-07",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/56102/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r11/MapServer"
+    },
+    {
+      "date": "2023-11-01",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/12457/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r10/MapServer"
+    },
+    {
+      "date": "2023-10-11",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/1034/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r09/MapServer"
+    },
+    {
+      "date": "2023-08-31",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/64776/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r08/MapServer"
+    },
+    {
+      "date": "2023-08-10",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/17632/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r07/MapServer"
+    },
+    {
+      "date": "2023-06-29",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/47963/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r06/MapServer"
+    },
+    {
+      "date": "2023-06-13",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/25982/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r05/MapServer"
+    },
+    {
+      "date": "2023-05-03",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/46399/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r04/MapServer"
+    },
+    {
+      "date": "2023-04-05",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/37890/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r03/MapServer"
+    },
+    {
+      "date": "2023-03-15",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/44873/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r02/MapServer"
+    },
+    {
+      "date": "2023-02-23",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/57965/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r01/MapServer"
+    },
+    {
+      "date": "2023-01-11",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11475/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2023_r00/MapServer"
+    },
+    {
+      "date": "2022-12-14",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/45134/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r15/MapServer"
+    },
+    {
+      "date": "2022-11-02",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/7110/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r14/MapServer"
+    },
+    {
+      "date": "2022-10-12",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/44988/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r13/MapServer"
+    },
+    {
+      "date": "2022-09-21",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/47471/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r12/MapServer"
+    },
+    {
+      "date": "2022-08-31",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/45441/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r11/MapServer"
+    },
+    {
+      "date": "2022-08-10",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/17825/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r10/MapServer"
+    },
+    {
+      "date": "2022-07-21",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/13851/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r09/MapServer"
+    },
+    {
+      "date": "2022-06-29",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/4905/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r08/MapServer"
+    },
+    {
+      "date": "2022-06-08",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/44710/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r07/MapServer"
+    },
+    {
+      "date": "2022-05-18",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/5314/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r06/MapServer"
+    },
+    {
+      "date": "2022-04-27",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16245/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r05/MapServer"
+    },
+    {
+      "date": "2022-04-06",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/48232/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r04/MapServer"
+    },
+    {
+      "date": "2022-03-16",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10321/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r03/MapServer"
+    },
+    {
+      "date": "2022-02-24",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/10312/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r02/MapServer"
+    },
+    {
+      "date": "2022-02-02",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26083/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r01/MapServer"
+    },
+    {
+      "date": "2022-01-12",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/42663/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2022_r00/MapServer"
+    },
+    {
+      "date": "2021-12-21",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26120/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r17/MapServer"
+    },
+    {
+      "date": "2021-11-30",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/48624/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r16/MapServer"
+    },
+    {
+      "date": "2021-11-03",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/42403/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r15/MapServer"
+    },
+    {
+      "date": "2021-10-13",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16749/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r14/MapServer"
+    },
+    {
+      "date": "2021-09-28",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/51313/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r13/MapServer"
+    },
+    {
+      "date": "2021-09-01",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/47568/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r12/MapServer"
+    },
+    {
+      "date": "2021-08-11",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/51423/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r11/MapServer"
+    },
+    {
+      "date": "2021-07-21",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/8432/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r10/MapServer"
+    },
+    {
+      "date": "2021-06-30",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/13534/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r09/MapServer"
+    },
+    {
+      "date": "2021-06-09",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/48376/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r08/MapServer"
+    },
+    {
+      "date": "2021-05-19",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/15423/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r07/MapServer"
+    },
+    {
+      "date": "2021-04-28",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/27659/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r06/MapServer"
+    },
+    {
+      "date": "2021-04-08",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6863/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r05/MapServer"
+    },
+    {
+      "date": "2021-03-17",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/5359/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r04/MapServer"
+    },
+    {
+      "date": "2021-02-24",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/9812/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r03/MapServer"
+    },
+    {
+      "date": "2021-01-13",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/1049/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2021_r01/MapServer"
+    },
+    {
+      "date": "2020-12-16",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/29260/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r16/MapServer"
+    },
+    {
+      "date": "2020-11-18",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/20753/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r15/MapServer"
+    },
+    {
+      "date": "2020-10-14",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/119/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r14/MapServer"
+    },
+    {
+      "date": "2020-09-23",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/19187/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r13/MapServer"
+    },
+    {
+      "date": "2020-09-02",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/9181/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r12/MapServer"
+    },
+    {
+      "date": "2020-08-12",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/6049/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r11/MapServer"
+    },
+    {
+      "date": "2020-07-22",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/9549/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r10/MapServer"
+    },
+    {
+      "date": "2020-07-01",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/18289/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r09/MapServer"
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/11135/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r08/MapServer"
+    },
+    {
+      "date": "2020-05-20",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/32645/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r07/MapServer"
+    },
+    {
+      "date": "2020-04-29",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/15045/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r06/MapServer"
+    },
+    {
+      "date": "2020-04-08",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/26751/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r05/MapServer"
+    },
+    {
+      "date": "2020-03-23",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/16062/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r04/MapServer"
+    },
+    {
+      "date": "2020-02-20",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/8495/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r03/MapServer"
+    },
+    {
+      "date": "2020-01-30",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/21485/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r02/MapServer"
+    },
+    {
+      "date": "2020-01-08",
+      "url": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/23001/{level}/{row}/{col}",
+      "metadataUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r01/MapServer"
+    }
+  ]
+}
