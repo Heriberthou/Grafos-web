@@ -280,3 +280,18 @@ for(const [buttonId,bodyId,panelId,name] of [
   map.invalidateSize({pan:false});
  };
 }
+
+let reportBusy=false;
+async function exportFullReport(format){
+ if(!activeProject||reportBusy)return;
+ if(!$('stepLength').checkValidity()){$('stepLength').reportValidity();return;}
+ reportBusy=true;$('downloadPDF').disabled=$('downloadWord').disabled=true;
+ $('reportStatus').textContent='Preparando reporte completo…';
+ try{
+  const snapshot={graph:structuredClone(graph),project:{...activeProject},origin:$('origin').value,destination:$('destination').value,stride:stepLength,author:$('reportAuthor').value,notes:$('reportNotes').value,includeGeometry:$('reportGeometry').checked,imagery:$('basemap').selectedOptions[0]?.textContent+' · '+$('imageryStatus').textContent};
+  const {downloadReport}=await import('./report.js');await downloadReport(snapshot,format);
+  $('reportStatus').textContent='Reporte generado. Se inició la descarga en '+(format==='docx'?'Word':'PDF')+'.';
+ }catch(e){$('reportStatus').textContent='No se pudo generar el reporte: '+e.message;}
+ finally{reportBusy=false;$('downloadPDF').disabled=$('downloadWord').disabled=false;}
+}
+$('downloadPDF').onclick=()=>exportFullReport('pdf');$('downloadWord').onclick=()=>exportFullReport('docx');

@@ -1,0 +1,49 @@
+# Dependencies and caches
+node_modules/
+.npm/
+.cache/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Temporary work and generated reports
+/tmp/
+/temp/
+/exports/
+/reports/
+/umar/
+/*-preview.png
+/*-preview.jpg
+/preview.jpg
+*.log
+*.tmp
+*.bak
+*.bundle
+
+# Local hosting, agent and editor configuration
+.openai/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# dist/ contains the application source and must remain tracked.

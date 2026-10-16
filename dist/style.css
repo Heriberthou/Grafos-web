@@ -45,3 +45,5 @@
 .panel-collapsed #toggleWeights,.panel-collapsed #toggleImagery{width:30px;height:30px;padding:5px;border-color:transparent;background:transparent}
 .panel-collapsed #toggleWeights:hover,.panel-collapsed #toggleImagery:hover{background:#edf4ed;border-color:#9ab6a4}
 @media(prefers-reduced-motion:reduce){#toggleWeights svg{transition:none}}
+
+.report-panel{margin-top:22px;padding:22px;border:1px solid var(--line);border-radius:12px;background:white}.report-panel h2{font-size:18px}.report-panel summary{cursor:pointer;font-size:12px;color:var(--green)}.report-panel details label{margin-top:14px}.report-panel textarea{width:100%;border:1px solid var(--line);border-radius:7px;padding:12px;font:inherit;font-size:12px;resize:vertical}.report-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.report-actions button{font-size:12px}

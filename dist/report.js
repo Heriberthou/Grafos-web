@@ -46,16 +46,16 @@ function bytes(canvas){return Uint8Array.from(atob(canvas.toDataURL('image/png')
 export async function makeWord(model){
  await loadLibrary('docx');const d=window.docx,children=[];
  const paragraph=(text,options={})=>new d.Paragraph({children:[new d.TextRun({text:String(text),font:'Calibri',size:20})],spacing:{after:140},...options});
- for(const b of model.blocks){
+ for(const [blockIndex,b] of model.blocks.entries()){
  if(b.type==='title'||b.type==='heading')children.push(new d.Paragraph({text:b.text,heading:b.type==='title'?d.HeadingLevel.TITLE:d.HeadingLevel.HEADING_1,spacing:{before:b.type==='title'?0:260,after:160},keepNext:true}));
- else if(b.type==='text')children.push(paragraph(b.text));
- else if(b.type==='figure'){const canvas=await raster(b.svg);children.push(paragraph(b.title,{keepNext:true}));children.push(new d.Paragraph({children:[new d.ImageRun({type:'png',data:bytes(canvas),transformation:{width:500,height:300}})],spacing:{after:200}}));}
+ else if(b.type==='text')children.push(paragraph(b.text,{keepNext:model.blocks[blockIndex+1]?.type==='figure'}));
+ else if(b.type==='figure'){const canvas=await raster(b.svg);children.push(paragraph(b.title,{keepNext:true}));children.push(new d.Paragraph({children:[new d.ImageRun({type:'png',data:bytes(canvas),transformation:{width:360,height:216}})],spacing:{after:200}}));}
  else if(b.type==='table'){
  if(!b.rows.length){children.push(paragraph('Sin registros.'));continue;}
  const widths=b.widths.map(w=>Math.round(w*14040));
  const rows=[b.headers,...b.rows].map((cells,i)=>new d.TableRow({tableHeader:i===0,cantSplit:true,children:cells.map((cell,j)=>new d.TableCell({width:{size:widths[j],type:d.WidthType.DXA},verticalAlign:d.VerticalAlign.CENTER,shading:{fill:i===0?'E8EEEA':i%2?'FFFFFF':'F7F9F6'},children:[new d.Paragraph({children:[new d.TextRun({text:String(cell),font:'Calibri',size:18,bold:i===0})],spacing:{after:60,before:60}})]}))}));
  const border={style:d.BorderStyle.SINGLE,size:4,color:'D9D9D9'};
- children.push(new d.Table({rows,width:{size:14040,type:d.WidthType.DXA},columnWidths:widths,layout:d.TableLayoutType.FIXED,margins:{top:70,bottom:70,left:100,right:100},borders:{top:border,bottom:border,left:border,right:border,insideHorizontal:border,insideVertical:border}}));children.push(paragraph(''));
+ children.push(new d.Table({rows,width:{size:14040,type:d.WidthType.DXA},columnWidths:widths,layout:d.TableLayoutType.FIXED,margins:{top:70,bottom:70,left:100,right:100},borders:{top:border,bottom:border,left:border,right:border,insideHorizontal:border,insideVertical:border}}));children.push(new d.Paragraph({children:[new d.TextRun({text:'',size:2})],spacing:{before:0,after:0,line:20}}));
  }
  }
  const doc=new d.Document({title:model.title,creator:'Rutas PXM',styles:{default:{document:{run:{font:'Calibri',size:20,color:'000000'}}},paragraphStyles:[{id:'Title',name:'Title',basedOn:'Normal',run:{font:'Calibri',size:36,bold:true,color:'000000'},paragraph:{spacing:{after:200}}},{id:'Heading1',name:'Heading 1',basedOn:'Normal',run:{font:'Calibri',size:26,bold:true,color:'000000'},paragraph:{keepNext:true}}]},sections:[{properties:{page:{size:{width:12240,height:15840,orientation:d.PageOrientation.LANDSCAPE},margin:{top:900,bottom:900,left:900,right:900}}},footers:{default:new d.Footer({children:[new d.Paragraph({alignment:d.AlignmentType.RIGHT,children:[new d.TextRun({children:['Rutas PXM · Página ',d.PageNumber.CURRENT],size:16})]})]})},children}]});
@@ -69,9 +69,9 @@ export async function makePDF(model){
  async function page(){await finish();canvas=document.createElement('canvas');canvas.width=W*2;canvas.height=H*2;ctx=canvas.getContext('2d');ctx.scale(2,2);ctx.fillStyle='white';ctx.fillRect(0,0,W,H);y=M;pageCount++;}
  function wrap(value,width,size=9,bold=false){ctx.font=(bold?'bold ':'')+size+'px Arial';const lines=[];for(const part of String(value).split('\n')){let line='';for(const char of part){if(ctx.measureText(line+char).width>width&&line){lines.push(line);line='';}line+=char;}lines.push(line);}return lines;}
  async function paragraph(value,size=10,bold=false){const lines=wrap(value,usable,size,bold),lh=size*1.4;for(const line of lines){if(y+lh>bottom)await page();ctx.font=(bold?'bold ':'')+size+'px Arial';ctx.fillStyle='#17251d';ctx.fillText(line,M,y+size);y+=lh;}y+=8;}
- await page();for(const b of model.blocks){
- if(b.type==='title'||b.type==='heading'){if(y+65>bottom)await page();y+=b.type==='heading'?12:0;await paragraph(b.text,b.type==='title'?22:14,true);}
- else if(b.type==='text')await paragraph(b.text);
+ await page();for(const [blockIndex,b] of model.blocks.entries()){
+ if(b.type==='title'||b.type==='heading'){if(y+(model.blocks.slice(blockIndex+1,blockIndex+3).some(b=>b.type==='figure')?270:65)>bottom)await page();y+=b.type==='heading'?12:0;await paragraph(b.text,b.type==='title'?22:14,true);}
+ else if(b.type==='text'){if(model.blocks[blockIndex+1]?.type==='figure'&&y+250>bottom)await page();await paragraph(b.text);}
  else if(b.type==='figure'){if(y+210>bottom)await page();await paragraph(b.title,10,true);const figure=await raster(b.svg);ctx.drawImage(figure,M,y,300,180);y+=192;}
  else if(b.type==='table'){
  if(!b.rows.length){await paragraph('Sin registros.');continue;}
